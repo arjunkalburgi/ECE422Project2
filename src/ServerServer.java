@@ -1,13 +1,9 @@
-/* ECE 422 Project 2
- * Jenna Hatchard
- * Server Manager
- */
 
 import java.net.Socket;
 import java.net.ServerSocket;
 import java.io.IOException;
 
-public class ServerManager {
+public class ServerServer {
 
     public static void main(String[] args) throws IOException {
         int portNumber = 16000;

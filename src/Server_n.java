@@ -9,15 +9,10 @@ import java.nio.file.Paths;
  */
 public class Server_n extends Thread {
 
-
-    private BufferedReader console;
-    private InputStreamReader in;
     SocketPortal portal;
     Socket socket;
 
     public Server_n(Socket s) throws Exception {
-        this.in = new InputStreamReader(System.in);
-        this.console = new BufferedReader(this.in);
 
         this.socket = s;  //new Socket("localhost", 16000);
         this.portal = new SocketPortal(this.socket);

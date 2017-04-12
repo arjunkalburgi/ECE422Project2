@@ -6,7 +6,7 @@ Build
 - for Mac: make darwin
 
 Run 
-- server: java ServerManager
+- server: java ServerServer
 - client: java Client_n
 
 Notes

@@ -6,14 +6,10 @@ import java.net.Socket;
  */
 public class Client_n {
 
-    private BufferedReader console;
-    private InputStreamReader in;
     SocketPortal portal;
     Socket socket;
 
     public Client_n() throws Exception {
-        this.in = new InputStreamReader(System.in);
-        this.console = new BufferedReader(this.in);
         this.socket = new Socket("localhost", 16000);
         portal = new SocketPortal(socket);
 
