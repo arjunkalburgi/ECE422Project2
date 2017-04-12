@@ -1,17 +1,14 @@
 # ECE422Project2
 Arjun Kalburgi - 1388774 
 
-for Linux
-- make linux
+Build
+- for Linux: make linux
+- for Mac: make darwin
 
-for Mac 
-- make darwin
+Run 
+- server: java ServerManager
+- client: java Client_n
 
-put files hosted by the server in ./src/serverfiles/...
-files received by the client will show up in ./src/clientfiles/...
-
-Run server 
-- java ServerManager
-
-Run client 
-- java Client_n
+Notes
+- put files hosted by the server in ./src/serverfiles/...
+- files received by the client will show up in ./src/clientfiles/...
