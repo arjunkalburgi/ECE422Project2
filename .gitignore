@@ -1,0 +1,11 @@
+
+.idea/*
+*.iml
+*.class
+**/srv/*
+**/out/*
+**/downloads/*
+**/accounts.txt
+**/filetransfer_encryption_TEAEncryption.h
+libs/*
+*.dylib
